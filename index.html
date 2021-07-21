@@ -5,12 +5,187 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Pages Sample</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="10-kadai.css">
 </head>
 <body>
-    <h1>GitHub Pages Sample</h1>
-    <p>これはサンプルです。</p>
-    <p>テキストを修正しました。</p>
-    <p>こんにちは</p>
+    
+    <header class="global-nav">
+        <h1>My Portfolio</h1>
+        <nav>
+          <ul>
+            <a href="#"><li>ABOUT</li></a>
+            <a href="#"><li>SERVICE</li></a>
+            <a href="#"><li>ACCESS</li></a>
+            <a href="#"><li>CONTACT</li></a>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main_imgBox">   
+        <div class="main_img" style="background-image: url(img/kanban.JPG)"></div>
+        <div class="main_img" style="background-image: url(img/midori.JPG)"></div>
+        <div class="main_img" style="background-image: url(img/azisai2.JPG)"></div>
+        <div class="main_img" style="background-image: url(img/train.JPG)"></div>
+        <div class="main_img" style="background-image: url(img/sea.jpeg)"></div>
+        <div class="main_img" style="background-image: url(img/azisai.JPG)"></div>
+    </div>
+
+
+    
+      <section class="about">
+        <h3>ABOUT<br><small>私について</small></h3>
+        <div class="vision">
+          <div class="vision-texts">
+            <h4>テキストテキスト</h4>
+            <p>
+                テキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキスト
+            </p>
+           
+          </div>
+          <div class="vision-images">
+            <img src="img/take.jpeg" alt="vision image">
+          </div>
+        </div>
+        
+
+        <div class="message">
+          <div class="message-texts">
+            <h4>テキストテキスト</h4>
+            
+          </div>
+          
+          
+            <figure class="snip1577">
+                <img src="img/ike.jpeg" alt="about image">
+                <figcaption>
+                  </figcaption>
+                  <a href="#"></a>
+            </figure>
+            <figure class="snip1577">
+                <img src="img/momizi.JPG" alt="about image">
+            </figure>
+            <figure class="snip1577">
+                <img src="img/kanban.JPG" alt="about image">
+            </figure>
+
+            <figure class="snip1577">
+              <img src="img/sea.jpeg" alt="about image">
+            </figure>
+
+            <figure class="snip1577">
+                  <img src="img/train.JPG" alt="about image">
+            </figure>
+            <figure class="snip1577">
+                <img src="img/azisai3.JPG" alt="about image">
+            </figure>
+          
+       
+            <figure class="snip1577">
+                <img src="img/cafe.jpg" alt="about image">
+            </figure>
+            
+            <figure class="snip1577">
+                <img src="img/azisai4.JPG" alt="about image">
+            </figure>
+            
+            <figure class="snip1577">
+                <img src="img/take.jpeg" alt="about image">
+            </figure>
+            
+            <figure class="snip1577">
+                <img src="img/kamera.jpeg" alt="about image">
+            </figure>
+
+            <figure class="snip1577">
+                <img src="img/ike.jpeg" alt="about image">
+            </figure>
+            
+            <figure class="snip1577">
+                <img src="img/sea.jpeg" alt="about image">
+            </figure>
+
+            
+            
+        </div>
+        </section>
+
+        <section class = "service">
+            <h3>SERVICE<br><small>サービス</small></h3>
+            <div class="vision">
+                <div class="vision-texts">
+                  <h4>テキストテキスト</h4>
+                  <p>
+                      テキストテキストテキストテキストテキストテキスト
+                      テキストテキストテキストテキストテキストテキスト
+                  </p>
+                 
+                </div>
+                <div class="vision-images">
+                  <img src="img/azisai4.JPG" alt="vision image">
+                </div>
+              </div>
+        </section>
+
+        <section class = "access">
+            <h3>ACCESS<br><small>アクセス</small></h3>
+            <div class="vision">
+                <div class="vision-texts">
+                  <h4>テキストテキスト</h4>
+                  <p>
+                      テキストテキストテキストテキストテキストテキスト
+                      テキストテキストテキストテキストテキストテキスト
+                  </p>
+                 
+                </div>
+                <div class="vision-images">
+                  <img src="img/kanban.JPG" alt="vision image">
+                </div>
+              </div>
+        </section>
+
+        <section class = "contact">
+            <h3>CONTACT<br><small>連絡先</small></h3>
+            <div class="vision">
+                <div class="vision-texts">
+                  <h4>テキストテキスト</h4>
+                  <p>
+                      テキストテキストテキストテキストテキストテキスト
+                      テキストテキストテキストテキストテキストテキスト
+                  </p>
+                 
+                </div>
+                <div class="vision-images">
+                  <img src="img/train.JPG" alt="vision image">
+                </div>
+              </div>
+        </section>
+
+        <section class = "sankou">
+          <ol>
+            <ul>
+              <li>http://littlesnippets.net
+                <p>
+                  複数枚の画像にマウスカーソルがのると色が変わる
+                </p>
+              </li>
+            </ul>
+          </ol>
+        </section>
+
+      
+    
+   
+      <script>
+          $(".hover").mouseleave(
+            function() {
+            $(this).removeClass("hover");
+            }
+        );
+      </script>
+      
     
 </body>
 </html>
