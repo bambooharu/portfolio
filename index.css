@@ -3,6 +3,7 @@
     color: #808080; /*文字色*/
     padding: 0;
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
  }
  
  ul {
@@ -113,6 +114,7 @@
     margin-top: 100px;
     display: grid;
     grid-template-columns: 400px 600px;
+
  }
  
  
@@ -163,16 +165,7 @@
  */
  
  
- 
- 
- h2 {
-    font-weight: normal;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 35px;
-    margin-top: 30px;;
- }
+
  
  .copyright {
     font-size: 15px;
@@ -566,3 +559,39 @@ footer{
     margin-top: 120px;
     padding: 30px 0; 
 }
+.mail.icon {
+    color: #000;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 4px;
+    width: 15px;
+    height: 10px;
+    border-radius: 1px;
+    border: solid 1px currentColor;
+  }
+  .mail.icon:before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: -4px;
+    width: 1px;
+    height: 10px;
+    background-color: currentColor;
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transform: rotate(-54deg);
+            transform: rotate(-54deg);
+  }
+  .mail.icon:after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: -4px;
+    width: 1px;
+    height: 10px;
+    background-color: currentColor;
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transform: rotate(54deg);
+            transform: rotate(54deg);
+  }
