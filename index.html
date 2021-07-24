@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link rel=”stylesheet” href=”https://bambooharu.github.io/portfolio/index.css”/>
     <link rel="stylesheet" href="index.css">
-    
+    <link rel="stylesheet" type="text/css" href="index.css">
 
 </head>
 <body>
@@ -30,6 +30,7 @@
     <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-1-5/js/4-1-5.js"></script>
 
 
+
     
     <header class="global-nav">
         <h1>My Portfolio</h1>
@@ -45,7 +46,18 @@
         <div class="main_img" style="background-image: url(img/azisai.JPG)"></div>
     </div>
 
-    
+    <div class="openbtn"><span></span><span></span><span></span></div>
+    <nav id="g-nav">
+    <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+    <ul>
+    <li><a href="#">Top</a></li> 
+    <li><a href="#">About</a></li> 
+    <li><a href="#">Service</a></li> 
+    <li><a href="#">Contact</a></li> 
+    </ul>
+    </div>
+    </nav>
+
       <section class="about">
         <h3>ABOUT<br><small>私について</small></h3>
         <div class="vision">
@@ -81,34 +93,7 @@
             <figure class="snip1577">
                 <img src="img/momizi.JPG" alt="about image">
             </figure>
-            <figure class="snip1577">
-                <img src="img/kanban.JPG" alt="about image">
-            </figure>
 
-            <figure class="snip1577">
-              <img src="img/sea.jpeg" alt="about image">
-            </figure>
-
-            <figure class="snip1577">
-                  <img src="img/train.JPG" alt="about image">
-            </figure>
-            <figure class="snip1577">
-                <img src="img/azisai3.JPG" alt="about image">
-            </figure>
-          
-       
-            <figure class="snip1577">
-                <img src="img/cafe.jpg" alt="about image">
-            </figure>
-            
-            <figure class="snip1577">
-                <img src="img/azisai4.JPG" alt="about image">
-            </figure>
-            
-            <figure class="snip1577">
-                <img src="img/take.jpeg" alt="about image">
-            </figure>
-            
         </div>
         </section>
 
@@ -125,6 +110,11 @@
         );
       </script>
       
-    
+      <script src="index.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--自作のJS-->
+<script src="index.js"></script>
+
 </body>
 </html>
