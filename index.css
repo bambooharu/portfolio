@@ -72,12 +72,13 @@
     font-size: 15px;
     font-weight: 120;
  }
- 
- .about {
+
+ .about{
     margin: 0 auto;
     padding: 100px 0;
     max-width: 1000px;
  }
+ 
  
  h4 {
     font-size: 30px;
@@ -134,6 +135,7 @@
     position: center;
     grid-area: right; */
  }
+
 
 
  
@@ -554,10 +556,11 @@ a:hover{
 
 footer{
 
-    background-color: black;
+    background-color: #cab64a;
     color: white;
     text-align: center;
     margin: 0 auto;
     margin-top: 120px;
     padding: 30px 0; 
+    
 }

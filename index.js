@@ -12,3 +12,4 @@ function(){
          $("#mask").attr("class", "done");//描画が終わったらdoneというクラスを追加
 }
 );
+
