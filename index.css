@@ -67,11 +67,13 @@
 
  h3 {
   font-size: 30px;
+  display: block;
   font-weight: normal;
   align-items: center;
   justify-content: center;
   text-align: center;
   line-height: 25px;
+  margin-top: 100px;
   
 }
 
@@ -98,13 +100,14 @@ h3 small {
     
  }
 
-
  
  .vision {
     margin-top: 150px;
-    display: flex;
     grid-template-columns: 500px 500px;
-
+ }
+ .vision h3{
+   text-align: center;
+   
  }
  
  
