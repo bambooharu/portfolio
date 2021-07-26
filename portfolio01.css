@@ -61,3 +61,21 @@ p1 {
     display: block;
     padding: 50px 150px;
 }
+footer{
+
+    background-color: #c0b470;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 30px 0; 
+    
+}
+.copyright {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 120px;
+    margin: 0 150px;
+ 
+ }
+ 

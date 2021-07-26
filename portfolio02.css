@@ -4,3 +4,68 @@
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
  }
+ footer{
+
+    background-color: #c0b470;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 30px 0; 
+    
+}
+.copyright {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 120px;
+ 
+}
+  .sec1 {
+    background-image: url("./img/soda.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    max-width: auto;
+    margin: 0 150px;
+}
+.sec1 h1 {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    padding: 150px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 150px;
+    margin-bottom: 30px;
+}
+ li{
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+p1 {
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding: 50px 150px;
+}
+.photo{
+    height: 350px;
+    width:  350px;
+    margin-left: 100px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+ 
